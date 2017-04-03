@@ -1,0 +1,32 @@
+.segment-title {
+    text-align: center;
+}
+.cybersecurity-icons {
+    text-align: center;
+}
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-toggler {
+    position: absolute;
+    z-index: 1;
+}
+.firstsplgvideoframe {
+
+}
+.firstsquarepluginsvideo {
+
+    border:3px solid red;
+    position: relative;
+    padding-bottom: 40.25%; /* 16:9 Aspect Ratio */
+}
+.firstsquarepluginsvideo iframe {
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
