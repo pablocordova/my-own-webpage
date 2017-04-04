@@ -1,6 +1,3 @@
-.segment-title {
-    text-align: center;
-}
 .cybersecurity-icons {
     text-align: center;
 }
@@ -9,24 +6,50 @@ ul.no-bullets {
     margin: 0px;
     padding: 0px;
 }
-.navbar-toggler {
-    position: absolute;
-    z-index: 1;
-}
-.firstsplgvideoframe {
-
-}
-.firstsquarepluginsvideo {
-
-    border:3px solid red;
+.video {
     position: relative;
-    padding-bottom: 40.25%; /* 16:9 Aspect Ratio */
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    pointer-events: none;
+    
 }
-.firstsquarepluginsvideo iframe {
+.video video {
     position: absolute;
     width: 100% !important;
     height: 100% !important;
+    z-index: -1;
+
+}
+.overlay {
+    position: absolute;
+    z-index: 1;
+    border: 1px solid red;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 23%;
+    color: white;
+    font-size: 300%;
 }
 
-
-
+/* To resize the text above the video doing responsive the text */
+  
+@media screen and (max-width: 330px) {
+    .overlay {
+        font-size: 70%;
+    }
+}
+@media screen and (max-width: 550px) and (min-width: 331px) {
+    .overlay {
+        font-size: 100%;
+    }
+}
+@media screen and (max-width: 700px) and (min-width: 551px) {
+    .overlay {
+        font-size: 150%;
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 701px){
+    .overlay {
+        font-size: 200%;
+    }
+}
