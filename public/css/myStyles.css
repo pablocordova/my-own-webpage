@@ -132,6 +132,14 @@ ul.no-bullets {
     border-color:transparent #555 transparent transparent;
 }
 
+.star-filled {
+    color: #D7DF01;
+}
+
+.star-empty {
+    color: #D8D8D8;
+}
+
 /* To resize the text above the video doing responsive the text */
   
 @media screen and (max-width: 330px) {
