@@ -1,33 +1,44 @@
 .cybersecurity-icons {
     text-align: center;
 }
+
 ul.no-bullets {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
 }
+
 .segment-title {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 20px;
 }
-.segment-body {
 
-}
 .video {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
     pointer-events: none;
-    
+    z-index: -100;
 }
+
 .video video {
     position: absolute;
     width: 100% !important;
     height: 100% !important;
-    z-index: -1;
-
 }
+
+nav {
+    position: absolute !important;
+    z-index: 100 !important;
+    width: 100% !important;
+    background-color: transparent !important;
+}
+
+nav div ul li a{
+    color: white !important;
+}
+
 .overlay {
     position: absolute;
     z-index: 1;
@@ -45,6 +56,7 @@ ul.no-bullets {
     width: 200px;
     height: 200px;
 }
+
 .icons {
     display: inline;
 }
@@ -128,6 +140,7 @@ ul.no-bullets {
 .tags a:hover {
     background:#555;
 } 
+
 .tags a:hover:before {
     border-color:transparent #555 transparent transparent;
 }
@@ -151,16 +164,19 @@ ul.no-bullets {
         font-size: 70%;
     }
 }
+
 @media screen and (max-width: 550px) and (min-width: 331px) {
     .overlay {
         font-size: 100%;
     }
 }
+
 @media screen and (max-width: 700px) and (min-width: 551px) {
     .overlay {
         font-size: 150%;
     }
 }
+
 @media screen and (max-width: 900px) and (min-width: 701px){
     .overlay {
         font-size: 200%;
