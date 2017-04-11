@@ -140,6 +140,10 @@ ul.no-bullets {
     color: #D8D8D8;
 }
 
+.project {
+    margin-bottom: 20px;
+}
+
 /* To resize the text above the video doing responsive the text */
   
 @media screen and (max-width: 330px) {
