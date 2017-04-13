@@ -10,6 +10,7 @@ ul.no-bullets {
 
 .container {
     padding-bottom: 20px;
+    font-family: 'Cinzel';
 }
 
 .segment-title {
@@ -221,6 +222,21 @@ a i:hover {
     font-weight: bold;
     font-size: 22px;
     color: black;
+}
+
+.cybersecurity-text {
+    font-family: 'Athiti';
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.abilities-title {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+div ul li i.fa {
+    float: right;
 }
 
 /* To resize the text above the video doing responsive the text */
