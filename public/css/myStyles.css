@@ -239,6 +239,31 @@ div ul li i.fa {
     float: right;
 }
 
+.btn {
+    font-family: 'Athiti';
+}
+
+footer {
+    background-color: black;
+    color: gray;
+}
+
+footer div.row {
+    height: 60px;
+}
+
+footer div.container {
+    padding-bottom: 0px;
+}
+
+footer span {
+    font-family: 'Athiti';
+    color: #585858;
+}
+
+.web-source {
+    float: right;
+}
 /* To resize the text above the video doing responsive the text */
   
 @media screen and (max-width: 330px) {
