@@ -13,6 +13,10 @@ ul.no-bullets {
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 20px;
+    font-family: 'Cinzel';
+    color: #0080FF;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .video {
@@ -64,19 +68,46 @@ nav div ul li a:hover{
     font-style: bold;
 }
 
+.perfil {
+     margin-bottom: 30px;
+     font-family: 'Athiti';
+     color: gray;
+     text-align: justify;
+}
+
 .image {
-    border-radius: 50%;
-    overflow: hidden;
-    width: 200px;
-    height: 200px;
+    text-align: center;
 }
 
 .icons {
-    display: inline;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 .fa {
     margin-right: 10px;
+    color: gray;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a.icon-face i {
+    color: #000080;
+}
+
+a.icon-git i {
+    color: black;
+}
+
+a.icon-stack i {
+    color: #ff9900;
+}
+
+a i:hover {
+    text-shadow: 0px 0px 5px black;
 }
 
 .segment-color {
