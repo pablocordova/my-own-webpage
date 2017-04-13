@@ -8,6 +8,10 @@ ul.no-bullets {
     padding: 0px;
 }
 
+.container {
+    padding-bottom: 20px;
+}
+
 .segment-title {
     text-align: center;
     padding-top: 30px;
@@ -82,7 +86,7 @@ nav div ul li a:hover{
 .icons {
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
 }
 
 .fa {
@@ -190,6 +194,15 @@ a i:hover {
     border-color:transparent #555 transparent transparent;
 }
 
+.tags li {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.div-tags {
+    margin-top: 20px;
+}
+
 .star-filled {
     color: #D7DF01;
 }
@@ -200,6 +213,14 @@ a i:hover {
 
 .project {
     margin-bottom: 20px;
+    font-family: 'Athiti';
+    color: gray;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
 }
 
 /* To resize the text above the video doing responsive the text */
