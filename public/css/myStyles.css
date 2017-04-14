@@ -99,8 +99,8 @@ a:hover {
     text-decoration: none;
 }
 
-a.icon-face i {
-    color: #000080;
+a.icon-twitter i {
+    color: #0080FF;
 }
 
 a.icon-git i {
@@ -263,6 +263,10 @@ footer span {
 
 .web-source {
     float: right;
+}
+
+p small {
+    font-style: italic;
 }
 /* To resize the text above the video doing responsive the text */
   
