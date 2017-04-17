@@ -233,6 +233,7 @@ a i:hover {
 .abilities-title {
     font-weight: bold;
     font-size: 22px;
+    margin-bottom: 15px;
 }
 
 div ul li i.fa {
@@ -263,6 +264,10 @@ footer span {
 
 .web-source {
     float: right;
+}
+
+.no-bullets li {
+    margin-bottom: 10px;
 }
 
 p small {
